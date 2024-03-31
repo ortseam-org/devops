@@ -1,7 +1,9 @@
 name: Example Workflow
 
-on: [push]  
+on:
 
+  workflow_call:
+  
 jobs:
   build:
     runs-on: ubuntu-latest  
